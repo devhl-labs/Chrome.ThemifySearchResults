@@ -1,0 +1,249 @@
+#navcnt {font-size:25px;}
+
+/*::selection {
+     background: #FFD1D8;
+}*/
+body{background-color:black;}
+
+
+#viewport{background-color:black;}
+#viewport > a{visibility: hidden;}
+.content{
+     height: calc(100vh - 150px);
+     background-color:'yellow';
+
+}
+
+/*
+
+*{
+     background-color: #0D0D0D;
+}
+
+
+h3{
+     background-color: #FFFFFF;
+}
+
+.r, .osl{
+     background-color: #FFFFFF;
+}
+
+rc div h3 a img{
+     background-color: #FFFFFF;
+}
+
+div.s{
+     background-color: #FFFFFF;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+body{
+     background-color:#0D0D0D;
+}
+#main{
+     background-color: #0D0D0D
+}
+a{
+     color:#6783ab !important;
+}
+.content{
+     background-color:#222;
+}
+
+/*//search bar section*/
+#gbq1{
+     background-color: black
+}
+/*//google logo*/
+#gb > div.gb_Jb.gb_Hc > div.gb_f.gb_pb{
+     background-color: black;
+}
+#gba{
+     background-color: black;
+}
+#gb > div.gb_Jb.gb_Hc > div.gb_Z.gb_Hc.gb_f.gb_Fc{
+     background-color: black;
+}
+.gb_Ib{
+     background-color: black;
+}
+#gb > div.gb_Lb.gb_Ic > div.gb_Z.gb_Ic.gb_f.gb_Hc{
+     background-color: black;
+}
+#gb > div.gb_Lb.gb_Ic > div.gb_f.gb_rb{
+     background-color: black;
+}
+#gb > div.gb_Lb.gb_Ic > div.gb_0.gb_Ic.gb_f.gb_Hc{
+     background-color: black;
+}
+#gb{
+     background-color: black;
+}
+#searchform > div.sfbg.nojsv > div{
+     background-color: black;
+}
+#cnt > div:nth-child(2){
+     background-color: black;
+     max-width: 100%;
+}     
+#cnt > div:nth-child(2){
+     max-width: 100%;
+}
+
+/*//sets the background color for the search results*/
+#cnt{
+     background-color: #222;
+}
+
+/*//for "images for..."*/
+#imagebox_bigimages > div._Icb._kk._wI > a{
+     color: #6783ab;
+}
+#imagebox_bigimages > a{
+     color: #6783ab;
+}
+
+/*//sets the color for the strip above the search results*/
+#hdtbSum{
+     background-color: black;
+}
+#topabar{
+     background-color: #0D0D0D;
+}
+
+.r a{
+     color: #6783ab;
+}
+          //title of each result
+$('.fl').attr('style', 'color: #6783ab !important;');	//shortcut links under each result
+
+//for the personal block list from google (that I modified).  
+//You won't find it on the store.
+$('div.blockLink > a').attr('style', 'color: #6783ab'); 
+
+//this handles links to files instead of html pages
+//it sets the color for when there is '[doc]' or '[pdf]' preceding the result title
+$('.w').attr('style', 'color: #6783ab');			
+
+//links at bottom of page that match searh term
+$('#brs > div._r > div > p > a').attr('style', 'color: #6783ab; font-weight:900;');	
+$('#brs > div._r > div > p > a > b').attr('style', 'color: #6783ab; font-weight:100;');
+
+$('#pnnext > span:nth-child(2)').attr('style', 'color: #6783ab; display: block; margin-left: 53px'); //next button in footer
+$('#pnprev > span:nth-child(2)').attr('style', 'color: #6783ab; display: block; margin-right: 35px; clear: right'); //previous button in footer
+
+
+//small change to handle the news tab
+$('div._fC._r > a').attr('style', 'color: #6783ab');
+$('div > div > a').attr('style', 'color: #6783ab');
+$('.news-author').attr('style', 'color: #6783ab');	
+
+//in the footer area, searches related to...
+$('#brs > div.card-section > div > p > a').attr('style', 'color: #6783ab');
+
+//page footer
+$('#fbar').attr('style', 'background-color: black');
+
+//fixes text in the View Profile button
+$('a[href^="https://plus.google.com/u/0/me"]').attr('style', 'color: white;');
+
+//this styles the definitions provided by google directly in the search results
+$('div._Hs').attr('style', 'color: #aaa;');
+$('div._YD').attr('style', 'color: #aaa;');
+
+$('#rcnt').attr('style', 'background-color: #222');
+$('#topabar').attr('style', 'background-color: #222');
+
+//modifies the options button
+$('a[href^="http://www.google.com/intl/en/options/"]').attr('style', 'background-color: #780000; border-radius: 3px; opacity: 100;');
+$('a[href^="http://www.google.com/intl/en/options/"]').hover(function(){
+     $(this).attr('style', 'background-color: red; border-radius: 3px; opacity: 100;');
+}, function(){
+     $(this).attr('style', 'background-color: #780000; border-radius: 3px; opacity: 100;');
+}); 
+
+//modifies the notifications button
+$('#gbw > div > div > div.gb_Fc.gb_Vc.gb_k > div.gb_Za.gb_lb.gb_k.gb_7a > div.gb_0a > a').attr('style', 'background-color: #780000; border-radius: 3px; opacity:100;');
+$('a > div.gb_Za.gb_Sa.gb_Kc').hover(function(){
+     $(this).attr('style', 'background-color: red; border-radius: 3px; opacity: 100; width: 25px;');
+}, function(){
+     $(this).attr('style', 'background-color: #780000; border-radius: 3px; opacity: 100; width: 25px;');
+});
+$('a > div.gb_Za.gb_Sa.gb_Kc').attr('style', 'background-color: #780000; width: 25px; border-radius: 3px;opacity:100;');
+
+//modifies the +1 button
+$('#gbw > div > div > div.gb_Fc.gb_Vc.gb_k > div.gb_Ub.gb_lb.gb_k.gb_Oc > div.gb_0a').attr('style', 'background-color: #780000; width: 30px; border-radius: 3px;opacity:100;');
+$('div.gb_Qb.gb_jb.gb_h.gb_Kc > div.gb_Xa > a').hover(function(){
+     $(this).attr('style', 'background-color: red; border-radius: 3px; opacity: 100; width: 30px;');
+}, function(){
+     $(this).attr('style', 'background-color: #780000; border-radius: 3px; opacity: 100; width: 30px;');
+});               
+
+//for sidebar menus like for instance movie times
+$('#rhs_block > ol > li > div.kp-blk._C6._sx._UR').attr('style', 'background-color: rgb(121, 121, 121);');
+$('#rhs_block > ol:nth-child(2) > li > div.kp-blk._Ge._sx._UR').attr('style', 'background-color: rgb(121, 121, 121);');
+$('#rhs_block > ol:nth-child(2) > li > div.kp-blk._Ge._sx._UR').find('a').each(function(){
+     $(this).attr('style', 'color: default;');
+});
+$('#newsbox').attr('style', 'background-color: #808080;');
+$('#newsbox').find('a').each(function(){
+     $(this).attr('style', 'color: default;');
+});
+
+//handles the current page number
+$('.cur').attr('style', 'color: #808080;');
+
+//movie showtimes
+$('span.vk_bk.lr_c_h').attr('style', 'color:#808080 !important;');
+$('div.tb_h').attr('style', 'color: rgb(255,209, 216);');
+$('div.lr_c_tf.r-search-5').attr('style', 'background-color: #222;color: #808080;');
+$('div.vk_pl.vk_pr').attr('style', 'color: #808080;');
+$('div.lr_c_tmt').attr('style', 'color: #808080;');   
+$('a.vk_bk').attr('style', 'color:#6783ab !important;');    
+$('div.kno-rdesc').attr('style', 'color:#808080;');
+$('div.kno-ecr-pt.kno-fb-ctx').attr('style', 'color:#808080;');
+$('div.ellip').attr('style', 'color:#808080;');
+$('span._vWc>span').attr('style', 'color:#6783ab !important;');
+$('#lr_c_tc > div.lr_c_tf.r-search-6').attr('style','color:#808080;background-color:#222;');
+$('#lr_c_tc > div.tb_c.tb_stc > div > div > div > div.lr_c_vn').attr('style', 'color:#808080;background-color:#222;');
+
+
+//showing results for...
+$('.spell').attr('style', 'color:#545454;');
+$('a.spell').attr('style', 'color:#6783ab;');
+$('.spell_original').attr('style', 'color:#6783ab !important;');
+$('span.spell_orig').attr('style', 'color:#545454;');
+
+//definitions
+$('div._Tgc').attr('style', 'color:#545454;');
+
+$('#gsr > a').attr('style', 'display:none;');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

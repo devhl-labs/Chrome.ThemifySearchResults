@@ -1,0 +1,38 @@
+<html>
+     <head>
+          <title>dark theme</title>
+          <style>
+               body{width:750px;
+                    height:300px;
+               }
+               input{height:40px;
+                     font-size:20pt;
+               }
+               input[type="text"] {
+                    width:700px;
+               }
+          </style>
+     </head>
+     <body>
+          <input type="button" value="Enabled" id="btnToggle"/>
+          
+          View Theme <select id="viewTheme">
+               <option value="theme1" id="view1">Theme 1</option>
+               <option value="theme2" id="view2">Theme 2</option>
+               <option value="theme3" id="view3">Theme 3</option>
+               <option value="theme4" id="view4">Theme 4</option>
+          </select>
+          
+          Apply Theme <select id="applyTheme">
+               <option value="theme1" id="theme1">Theme 1</option>
+               <option value="theme2" id="theme2">Theme 2</option>
+               <option value="theme3" id="theme3">Theme 3</option>
+               <option value="theme4" id="theme4">Theme 4</option>
+          </select>
+          <a id="branding" href="http://www.devhl.com/">More from developer</a>
+          <br/>
+          <textarea id="theme" rows="36" cols="100"></textarea>
+     
+          <script src="popup.js"></script>
+     </body>
+</html>
